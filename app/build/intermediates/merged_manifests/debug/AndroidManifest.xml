@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proteintracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.proteintracker.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="com.example.proteintracker.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.proteintracker.DaftarTemanActivity" />
+        <activity android:name="com.example.proteintracker.RecyclerViewActivity" />
+        <activity android:name="com.example.proteintracker.tambah" />
+        <activity android:name="com.example.proteintracker.edit" />
+        <activity android:name="com.example.proteintracker.KelolaMahasiswa" />
+        <activity android:name="com.example.proteintracker.MahasiswaActivity" />
+        <activity android:name="com.example.proteintracker.ProteinTrackerApp" />
+        <activity android:name="com.example.proteintracker.Table" />
+        <activity android:name="com.example.proteintracker.List" />
+        <activity android:name="com.example.proteintracker.Main3FragmentActivity" />
+        <activity android:name="com.example.proteintracker.Text" />
+        <activity android:name="com.example.proteintracker.Test" />
+        <activity android:name="com.example.proteintracker.HelpActivity" />
+        <activity android:name="com.example.proteintracker.MainActivity" />
+    </application>
+
+</manifest>
